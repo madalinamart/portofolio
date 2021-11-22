@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">  
+</head>
+<body>
+
+<!--nav bar -->
+<nav class="navbar">
+           
+    <ul class="nav-menu">
+        <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+            <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+            <a href="#contacts" class="nav-link">Contacts</a>
+        </li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
+
+    
+
+
+<!--home section--> 
+<section class="home" id="home">
+    <div class="home__wrapper"> 
+    <img src="images/me.jpg" alt="my photo">        
+    <h1 class="title">
+        <span class="text-wrapper">
+          <span class="letters">
+              Hi, I'm Madalina, frontend developer.
+          </span>          
+        </span>
+    </h1>
+   </div> 
+</section>
+
+<!-- about section --> 
+<section class="about reveal" id="about">
+    <div class="about__wrapper">
+        <h1>Get to know me</h1>
+        <p>I am a student at the computer science university in Turin.</p>
+        <p>Currently located in Suceava, Romania and looking for job opportunities in order to start my career.</p>
+        <p>I'm a well organised person who loves challenges and improvements.</p>
+        <p>Interested in working with positive people on various projects.</p>
+        <p>Some of the technologies I've been working with recentely are:</p>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+        </ul>
+        <p>But, I always want to improve myself so I plan on studying about JS frameworks next.</p>
+    </div>
+</section>
+
+<!-- projects section -->
+<section class="projects reveal" id="projects">
+    <h1>Check some of my projects!</h1>
+    <div class="projects__wrapper">
+        <div class="project">
+            <h2>An example of an airplane company page</h2>
+            <a href="http://juniortestmadalinamartiniuc.infinityfreeapp.com" target="_blank"><img src="images/air.PNG" alt="air project"></a>
+            <a href="https://github.com/madalinamart/air" target="_blank"><button>Check the code</button></a>
+        </div>
+        <div class="project">
+            <h2>This portofolio!</h2>
+            <a href="#"><img src="images/portofolio.PNG" alt="air project"></a>
+            <a href="https://github.com/madalinamart/portofolio" target="_blank"><button>Check the code</button></a>
+        </div>
+        <div class="project">
+            <h2>An example of an online shop page</h2>
+            <a href="http://shop-project.infinityfreeapp.com/" target="_blank"><img src="images/shop.PNG" alt="air project"></a>
+            <a href="https://github.com/madalinamart/shop" target="_blank"><button>Check the code</button></a>
+        </div>
+    </div>
+</section>
+
+
+<!--contacts-->
+<section class="contacts reveal" id="contacts">
+    <h1>Find me on:</h1>
+    <div class="contacts__wrapper">
+        <a href="https://github.com/madalinamart" class="fab fa-github"></a>
+        <a href="https://www.linkedin.com/in/madalina-martiniuc-8043b419b/" class="fab fa-linkedin"></a>
+        <a href="https://www.instagram.com/m.madaliina/" class="fab fa-instagram"></a>
+    </div>
+    <p>Or email me at:</p> 
+    <div class="mail">     
+    <i class="far fa-envelope"></i><span>mmartiniuc7@gmail.com</span>
+    </div>
+</section>
+
+
+<!--footer-->
+<footer class="footer">
+    <h1>&copy;</h1>
+    <h3>made by Madalina Martiniuc</h3>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/reveal.js"></script>
+</body>
+</html>
